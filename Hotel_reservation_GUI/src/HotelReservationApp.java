@@ -9,10 +9,10 @@ import java.util.logging.Logger;
 public class HotelReservationApp extends JFrame implements ActionListener {
         private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
         private static final String username = "root";
-        private static final String password = "Lokesh@1204";
+        private static final String password = "******";
 
-        private static final String VALID_USERNAME = "Lokesh";
-        private static final String VALID_PASSWORD = "Lokesh1204";
+        private static final String VALID_USERNAME = "John";
+        private static final String VALID_PASSWORD = "******";
 
         private static final Logger logger = Logger.getLogger(HotelReservationApp.class.getName());
 
